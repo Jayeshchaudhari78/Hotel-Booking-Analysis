@@ -35,37 +35,37 @@ Cancellation Rate: Calculate the percentage of bookings with a "Cancelled" statu
 
 Total Bookings: Count the number of unique bookings in the fact_bookings table.
 
-# Weekdays vs. Weekends:
+## Weekdays vs. Weekends:
 
 Create measures for Weekday Bookings and Weekend Bookings by applying filters based on the day of the week using the dim_date table.
 
 Display separate KPIs for bookings and revenue on weekdays and weekends.
 
-# Cancellation and Occupancy Gauges:
+## Cancellation and Occupancy Gauges:
 
 For each gauge, create measures for Cancellation Rate (%) and Occupancy Rate (%).
 
 Use these to visually indicate booking cancellations and room occupancy percentages, with thresholds for performance levels.
 
-# Revenue Contributors by City:
+## Revenue Contributors by City:
 
 Create a bar chart visual using the dim_hotels table to show the contribution of each city to total revenue.
 
 Include a calculated measure for Revenue Share by City to highlight which cities are the top contributors.
 
-# Category-Wise Booking:
+## Category-Wise Booking:
 
 Create a pie chart to display bookings distribution across different room categories (e.g., RT1, RT2, RT3, RT4) using the dim_room table.
 
-# Average Ratings:
+## Average Ratings:
 
 Display the average rating of hotels using data from the fact_bookings table, which contains customer feedback and ratings.
 
-# Revenue by Hotel and Room Category:
+## Revenue by Hotel and Room Category:
 
 Use stacked bar charts to break down revenue contributions by hotel and by room category (Luxury, Business, etc.).
 
-# Booking Source Distribution:
+## Booking Source Distribution:
 
 Visualize the proportion of bookings made through different sources (e.g., MakeMyTrip, Tripster, Direct Online) in a pie chart.
 
@@ -74,13 +74,13 @@ Use the fact_bookings table, assuming it contains the booking source data.
 ## Slicers for Interactivity
 Add slicers for Hotel Name, Room Category, and City to allow users to filter the dashboard and focus on specific data points.
 
-# Key Insights Delivered
+## Key Insights Delivered
 Revenue and Occupancy Trends: Identify which days of the week or cities contribute the most to revenue and have the highest occupancy rates.
 
 Booking Cancellation Rates: Track the percentage of cancellations to identify problematic areas.
 
 Customer Preferences: Understand which room categories are most popular and which hotels attract the most guests.
 
-# Conclusion
+## Conclusion
 
 This dashboard provides a holistic view of the hotel booking performance across different dimensions. By using this dashboard, hotel management can easily track KPIs, monitor trends, and make data-driven decisions to optimize their business operations.
